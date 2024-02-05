@@ -9,13 +9,8 @@ const Cards = () => {
     { title: "Titulo 4", text: "Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum.", image: "https://images.unsplash.com/photo-1546969430-d023da44cfec?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fHw%3D" },
   ]
 
-  const containerStyle = {
-    display: 'flex',
-    flexWrap: 'wrap',
-  };
-
   return (
-    <div className="row container px-0 mx-0" style={containerStyle}>
+    <div className="row container px-0 mx-0">
       {cardsInfo.map((card, index) => (
         <Card key={index} title={card.title} text={card.text} image={card.image} />
       ))}

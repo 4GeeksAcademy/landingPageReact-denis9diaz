@@ -1,9 +1,5 @@
 import React from 'react'
 
-const styles = {
-    width: "18rem"
-}
-
 const imageStyles = {
     width: "100%",
     objectFit: "cover",
@@ -11,7 +7,7 @@ const imageStyles = {
 
 const Card = (props) => {
     return (
-        <div className="card col" style={styles}>
+        <div className="card col-xs-12 col-sm-6 col-md-6 col-lg-3">
             <img src={props.image} style={imageStyles} className="card-img-top single-card-image" alt="..." />
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>

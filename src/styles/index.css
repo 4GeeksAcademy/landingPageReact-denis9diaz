@@ -24,7 +24,7 @@
     background-color: rgb(94, 94, 94);
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
     .single-card-image{
         height: 150px;
     }
@@ -42,7 +42,7 @@
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
     .single-card-image{
         height: 400px;
     }
