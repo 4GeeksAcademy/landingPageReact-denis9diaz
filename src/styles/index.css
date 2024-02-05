@@ -23,3 +23,27 @@
 .navbar {
     background-color: rgb(94, 94, 94);
 }
+
+@media only screen and (max-width: 576px) {
+    .single-card-image{
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .single-card-image{
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .single-card-image{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .single-card-image{
+        height: 400px;
+    }
+}
