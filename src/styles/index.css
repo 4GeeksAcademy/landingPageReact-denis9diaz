@@ -10,3 +10,16 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    text-align: left;
+}
+
+.jumbotron {
+    background-color: lightgray;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.navbar {
+    background-color: rgb(94, 94, 94);
+}
