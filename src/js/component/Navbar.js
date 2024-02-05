@@ -1,9 +1,5 @@
 import React from 'react'
 
-const styles = {
-    width: "30"
-}
-
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary container mb-2">
